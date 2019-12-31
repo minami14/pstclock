@@ -8,9 +8,11 @@
             text-align: center;
             font-size: 10vmin;
         }
+
         #time {
             font-size: 25vmin;
         }
+
         #vegas {
             font-size: 15vmin;
             color: red;
@@ -26,6 +28,10 @@
     <title>Las Vegas Time</title>
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.4.0/lib/darkmode-js.min.js"></script>
+<script>
+    new Darkmode({label: '🌓'}).showWidget();
+</script>
 <div id="clock">
     <p id="day"></p>
     <p id="time"></p>
